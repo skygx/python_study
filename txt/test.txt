@@ -1,0 +1,31 @@
+ansible_test1 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        164M        6.8G         11M        806M        7.3G
+Swap:          8.0G          0B        8.0G
+ansible_test2 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        163M        6.8G         11M        802M        7.3G
+Swap:          8.0G          0B        8.0G
+ansible_test1 | CHANGED | rc=0 >>
+
+ansible_test2 | CHANGED | rc=0 >>
+
+ansible_test1 | FAILED | rc=127 >>
+/bin/sh: dsa: command not foundnon-zero return code
+ansible_test2 | FAILED | rc=127 >>
+/bin/sh: dsa: command not foundnon-zero return code
+
+ansible_test1 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}
+ansible_test2 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    }, 
+    "changed": false, 
+    "ping": "pong"
+}

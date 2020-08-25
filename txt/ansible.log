@@ -1,0 +1,50 @@
+ansible_test1 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        167M        6.4G         19M        1.2G        7.3G
+Swap:          8.0G          0B        8.0G
+ansible_test2 | CHANGED | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        169M        6.4G         19M        1.2G        7.3G
+Swap:          8.0G          0B        8.0G
+
+ansible_test1 | CHANGED | rc=0 >>
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/OS_VG-OS_LV       30G  2.7G   28G   9% /
+devtmpfs                     3.9G     0  3.9G   0% /dev
+tmpfs                        3.9G     0  3.9G   0% /dev/shm
+tmpfs                        3.9G   20M  3.9G   1% /run
+tmpfs                        3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/sda1                    509M  112M  398M  22% /boot
+/dev/mapper/DATA_VG-DATA_LV  100G   33M  100G   1% /picclife
+tmpfs                        798M     0  798M   0% /run/user/2001
+tmpfs                        798M     0  798M   0% /run/user/2000
+ansible_test2 | CHANGED | rc=0 >>
+Filesystem                   Size  Used Avail Use% Mounted on
+/dev/mapper/OS_VG-OS_LV       30G  2.7G   28G   9% /
+devtmpfs                     3.9G     0  3.9G   0% /dev
+tmpfs                        3.9G     0  3.9G   0% /dev/shm
+tmpfs                        3.9G   20M  3.9G   1% /run
+tmpfs                        3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/sda1                    509M  112M  398M  22% /boot
+/dev/mapper/DATA_VG-DATA_LV  100G   33M  100G   1% /picclife
+tmpfs                        798M     0  798M   0% /run/user/2001
+tmpfs                        798M     0  798M   0% /run/user/2000
+
+ansible_test1 | CHANGED | rc=0 >>
+ 10:12:25 up 7 days, 22:13,  1 user,  load average: 0.00, 0.01, 0.05
+ansible_test2 | CHANGED | rc=0 >>
+ 10:12:25 up 7 days, 22:04,  1 user,  load average: 0.00, 0.01, 0.05
+ 
+ansible_test2 | CHANGED | rc=0 >>
+Linux 3.10.0-957.27.2.el7.x86_64 (ansible-test2) 	08/25/2020 	_x86_64_	(4 CPU)
+
+10:18:14 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+10:18:15 AM     all      0.00      0.00      0.00      0.00      0.00    100.00
+Average:        all      0.00      0.00      0.00      0.00      0.00    100.00
+ansible_test1 | CHANGED | rc=0 >>
+Linux 3.10.0-957.27.2.el7.x86_64 (ansible-test1) 	08/25/2020 	_x86_64_	(4 CPU)
+
+10:18:14 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+10:18:15 AM     all      0.00      0.00      0.25      0.00      0.00     99.75
+Average:        all      0.00      0.00      0.25      0.00      0.00     99.75
+
