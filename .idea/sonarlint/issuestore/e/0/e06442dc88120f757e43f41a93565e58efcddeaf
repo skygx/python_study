@@ -1,0 +1,5 @@
+
+_python:S2208"GImport only needed names or import the module and then use its members.(ï€¢
+vpython:S117"XRename this local variable "lengVal" to match the regular expression ^[_a-z][a-z0-9_]*$.(Œ§ó°8Ñ³ÁïÆ.
+=python:S125>"Remove this commented out code.(®ùÒ³8Ãƒ¼ïÆ.
+;python:S125""Remove this commented out code.(²Ô±€þÿÿÿÿ

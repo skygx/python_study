@@ -1,0 +1,3 @@
+ansible_ssh_host=192.168.136.143 ansible_ssh_user=linux ansible_ssh_pass=1 ansible_ssh_port=22 name=xguo 
+h2 ansible_ssh_host=192.168.136.144 ansible_ssh_user=linux ansible_ssh_pass=1 
+h3 ansible_ssh_host=192.168.136.145 ansible_ssh_user=linux ansible_ssh_pass=1 

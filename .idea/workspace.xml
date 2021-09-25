@@ -2,71 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d85b0b4-0dc3-4a67-be5f-e2b2235256f3" name="Default Changelist" comment="my first commit">
-      <change afterPath="$PROJECT_DIR$/py/30_simple_instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/ansible_result-v2.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/ansible_result-v3.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/ansible_result-v4.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/ansible_result.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/fake_datas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/geo_point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/image_convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/map_beijing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/map_china.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/port_scan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py/random_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/picc-machine-20200619.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/111.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/222.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/333.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/Bzhan_Danmu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/ansible_generate_inventory-v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/excel_deal-v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/get_music-v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/json_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/music163.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/ocr_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/pandas_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/passwd_select-v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/passwd_select-v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/pdf2word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/scheduler_job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/scrapt_wangyimusic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/sendSMS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/yanzhao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/ansible_result-v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/ansible_result-v2.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/beijing.html" beforeDir="false" afterPath="$PROJECT_DIR$/py/beijing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/map_beijing.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/map_beijing.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_study$distance_two_points.coverage" NAME="distance_two_points Coverage Results" MODIFIED="1577845616716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$gemini_market.coverage" NAME="gemini-market Coverage Results" MODIFIED="1581315869472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$read_big_file.coverage" NAME="read_big_file Coverage Results" MODIFIED="1582978327947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$excel_1.coverage" NAME="excel-1 Coverage Results" MODIFIED="1585537518682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$kafka_producer__1_.coverage" NAME="kafka-producer (1) Coverage Results" MODIFIED="1587786383398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kafka-test" />
+    <SUITE FILE_PATH="coverage/python_study$passwd_select_v1.coverage" NAME="passwd_select-v1 Coverage Results" MODIFIED="1599572318739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$cutout_img.coverage" NAME="cutout-img Coverage Results" MODIFIED="1590464429298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$exception_1.coverage" NAME="exception-1 Coverage Results" MODIFIED="1574594975375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_study$debug.coverage" NAME="debug Coverage Results" MODIFIED="1581254415804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/31" />
+    <SUITE FILE_PATH="coverage/python_study$scheduler_job.coverage" NAME="scheduler_job Coverage Results" MODIFIED="1600657442394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$iter_gene.coverage" NAME="iter_gene Coverage Results" MODIFIED="1581130843530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$fake_datas.coverage" NAME="fake_datas Coverage Results" MODIFIED="1592398596724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$file_classify.coverage" NAME="file-classify Coverage Results" MODIFIED="1577599190934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_study$grab_taobao.coverage" NAME="grab_taobao Coverage Results" MODIFIED="1590547740469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$ansible_result_v3_0.coverage" NAME="ansible_result-v3.0 Coverage Results" MODIFIED="1597905711453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$dict_magic.coverage" NAME="dict_magic Coverage Results" MODIFIED="1577840794449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$9_9_multi_v1_0.coverage" NAME="9_9_multi_v1.0 Coverage Results" MODIFIED="1557237397065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
-    <SUITE FILE_PATH="coverage/python_study$gil.coverage" NAME="gil Coverage Results" MODIFIED="1581233906643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/23" />
-    <SUITE FILE_PATH="coverage/python_study$emotion_reg.coverage" NAME="emotion_reg Coverage Results" MODIFIED="1590464176093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$pymysql_test.coverage" NAME="pymysql-test Coverage Results" MODIFIED="1575267434192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_study$sendSMS.coverage" NAME="sendSMS Coverage Results" MODIFIED="1616391674803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$isiterable.coverage" NAME="isiterable Coverage Results" MODIFIED="1581129789853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$image_convert.coverage" NAME="image_convert Coverage Results" MODIFIED="1592482047263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$scrapy_lagou.coverage" NAME="scrapy-lagou Coverage Results" MODIFIED="1579137050889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
     <SUITE FILE_PATH="coverage/python_study$qsort_v1_0.coverage" NAME="qsort_v1.0 Coverage Results" MODIFIED="1557237978908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
     <SUITE FILE_PATH="coverage/python_study$wordcloud_1.coverage" NAME="wordcloud-1 Coverage Results" MODIFIED="1590461081116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$scrapy_2.coverage" NAME="scrapy-2 Coverage Results" MODIFIED="1578906365207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
     <SUITE FILE_PATH="coverage/python_study$30_simple_instance.coverage" NAME="30_simple_instance Coverage Results" MODIFIED="1593351709051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$tkinter_test.coverage" NAME="tkinter-test Coverage Results" MODIFIED="1575266778431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_study$word_count.coverage" NAME="word_count Coverage Results" MODIFIED="1583474437794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$passwd_select_v2.coverage" NAME="passwd_select-v2 Coverage Results" MODIFIED="1599572750864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$invest.coverage" NAME="invest Coverage Results" MODIFIED="1581256566885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/33" />
-    <SUITE FILE_PATH="coverage/python_study$excel_3.coverage" NAME="excel-3 Coverage Results" MODIFIED="1585545458502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$msg_boom.coverage" NAME="msg_boom Coverage Results" MODIFIED="1590468168602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$list_embed_v1_0.coverage" NAME="list_embed_v1.0 Coverage Results" MODIFIED="1557238203533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
     <SUITE FILE_PATH="coverage/python_study$ansible_result.coverage" NAME="ansible_result Coverage Results" MODIFIED="1597646613159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$ansible_generate_inventory_v1.coverage" NAME="ansible_generate_inventory-v1 Coverage Results" MODIFIED="1604891948893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$music163.coverage" NAME="music163 Coverage Results" MODIFIED="1615467270142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$pandas_profile.coverage" NAME="pandas_profile Coverage Results" MODIFIED="1599391618277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$bs4.coverage" NAME="bs4 Coverage Results" MODIFIED="1578633152439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
     <SUITE FILE_PATH="coverage/python_study$scrap_1.coverage" NAME="scrap-1 Coverage Results" MODIFIED="1578817373592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
     <SUITE FILE_PATH="coverage/python_study$scrapy_3.coverage" NAME="scrapy-3 Coverage Results" MODIFIED="1578905262088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
     <SUITE FILE_PATH="coverage/python_study$mask_reg.coverage" NAME="mask_reg Coverage Results" MODIFIED="1590479781973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$example_1.coverage" NAME="example-1 Coverage Results" MODIFIED="1585568358482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$Mandelbrot_v1_0.coverage" NAME="Mandelbrot_v1.0 Coverage Results" MODIFIED="1557237225488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
     <SUITE FILE_PATH="coverage/python_study$analyse_job1.coverage" NAME="analyse-job1 Coverage Results" MODIFIED="1579575582142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
-    <SUITE FILE_PATH="coverage/python_study$jsonpath_test.coverage" NAME="jsonpath_test Coverage Results" MODIFIED="1557235354667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_study$excel_2.coverage" NAME="excel-2 Coverage Results" MODIFIED="1585545336092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$date_format.coverage" NAME="date-format Coverage Results" MODIFIED="1577856889183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$geoip_city_minddb.coverage" NAME="geoip-city-minddb Coverage Results" MODIFIED="1590464352407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$random_str.coverage" NAME="random_str Coverage Results" MODIFIED="1597716990349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$scrapt_wangyimusic.coverage" NAME="scrapt_wangyimusic Coverage Results" MODIFIED="1599917756532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$kafka_producer.coverage" NAME="kafka-producer Coverage Results" MODIFIED="1586153174282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kafka" />
     <SUITE FILE_PATH="coverage/python_study$msg_boom_1.coverage" NAME="msg_boom-1 Coverage Results" MODIFIED="1590468269983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$excel_deal.coverage" NAME="excel_deal Coverage Results" MODIFIED="1576589901975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -74,50 +76,75 @@
     <SUITE FILE_PATH="coverage/python_study$class.coverage" NAME="class Coverage Results" MODIFIED="1581138940060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/11" />
     <SUITE FILE_PATH="coverage/python_study$read_big_file1.coverage" NAME="read-big-file1 Coverage Results" MODIFIED="1582978727588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$geo_point.coverage" NAME="geo_point Coverage Results" MODIFIED="1592397454120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$excel_deal_v1.coverage" NAME="excel_deal-v1 Coverage Results" MODIFIED="1598853172558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$bf.coverage" NAME="bf Coverage Results" MODIFIED="1581231586251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/21" />
     <SUITE FILE_PATH="coverage/python_study$port_scan.coverage" NAME="port_scan Coverage Results" MODIFIED="1596164817165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$pdf_dump.coverage" NAME="pdf_dump Coverage Results" MODIFIED="1590567108882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$with.coverage" NAME="with Coverage Results" MODIFIED="1581250677843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/29" />
-    <SUITE FILE_PATH="coverage/python_study$ipaddress_1.coverage" NAME="ipaddress-1 Coverage Results" MODIFIED="1585572733324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$geoip_city.coverage" NAME="geoip-city Coverage Results" MODIFIED="1588212723525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$scrapy_lagou1.coverage" NAME="scrapy-lagou1 Coverage Results" MODIFIED="1579522470845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
-    <SUITE FILE_PATH="coverage/python_study$Love_v1_0.coverage" NAME="Love_v1.0 Coverage Results" MODIFIED="1557236874841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
-    <SUITE FILE_PATH="coverage/python_study$num_bit_sum_v1_0.coverage" NAME="num_bit_sum_v1.0 Coverage Results" MODIFIED="1557238327789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
     <SUITE FILE_PATH="coverage/python_study$xc.coverage" NAME="xc Coverage Results" MODIFIED="1581231291756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/20" />
     <SUITE FILE_PATH="coverage/python_study$bf_as.coverage" NAME="bf_as Coverage Results" MODIFIED="1581233030493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/22" />
-    <SUITE FILE_PATH="coverage/python_study$scrapy_jobs.coverage" NAME="scrapy-jobs Coverage Results" MODIFIED="1581129781411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
-    <SUITE FILE_PATH="coverage/python_study$flatten_v1_0.coverage" NAME="flatten_v1.0 Coverage Results" MODIFIED="1557238091195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
     <SUITE FILE_PATH="coverage/python_study$selenum_test.coverage" NAME="selenum_test Coverage Results" MODIFIED="1590557973555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$ansible_result_v4_0.coverage" NAME="ansible_result-v4.0 Coverage Results" MODIFIED="1598322140480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$rand_generate.coverage" NAME="rand_generate Coverage Results" MODIFIED="1562554932434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_study$garbage.coverage" NAME="garbage Coverage Results" MODIFIED="1581239027116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/24" />
     <SUITE FILE_PATH="coverage/python_study$word_reg.coverage" NAME="word_reg Coverage Results" MODIFIED="1590481164541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1581252670487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/30" />
-    <SUITE FILE_PATH="coverage/python_study$map_china.coverage" NAME="map_china Coverage Results" MODIFIED="1592467058064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$web_normal.coverage" NAME="web_normal Coverage Results" MODIFIED="1581231250833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/20" />
-    <SUITE FILE_PATH="coverage/python_study$plot_func.coverage" NAME="plot_func Coverage Results" MODIFIED="1590480523802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$active_code_gen.coverage" NAME="active-code-gen Coverage Results" MODIFIED="1582942165684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask-test" />
     <SUITE FILE_PATH="coverage/python_study$kafka_consumer.coverage" NAME="kafka-consumer Coverage Results" MODIFIED="1586152763381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kafka" />
     <SUITE FILE_PATH="coverage/python_study$prime_num_v1_0.coverage" NAME="prime_num_v1.0 Coverage Results" MODIFIED="1557237644591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
-    <SUITE FILE_PATH="coverage/python_study$FizzBuzz.coverage" NAME="FizzBuzz Coverage Results" MODIFIED="1557235813153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
     <SUITE FILE_PATH="coverage/python_study$fibrace_v1_0.coverage" NAME="fibrace_v1.0 Coverage Results" MODIFIED="1557237804494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
-    <SUITE FILE_PATH="coverage/python_study$web1.coverage" NAME="web1 Coverage Results" MODIFIED="1580629900814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web-framwork" />
-    <SUITE FILE_PATH="coverage/python_study$gemini_test.coverage" NAME="gemini_test Coverage Results" MODIFIED="1581256077811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$socket_client.coverage" NAME="socket-client Coverage Results" MODIFIED="1578817716862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket-test" />
     <SUITE FILE_PATH="coverage/python_study$kafka_consumer__1_.coverage" NAME="kafka-consumer (1) Coverage Results" MODIFIED="1586160797445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kafka-test" />
     <SUITE FILE_PATH="coverage/python_study$iris_seaborn.coverage" NAME="iris_seaborn Coverage Results" MODIFIED="1582981130373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$map_beijing.coverage" NAME="map_beijing Coverage Results" MODIFIED="1592468252276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$web_crawl.coverage" NAME="web_crawl Coverage Results" MODIFIED="1581231225024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/20" />
-    <SUITE FILE_PATH="coverage/python_study$gemini_bit.coverage" NAME="gemini-bit Coverage Results" MODIFIED="1582942537397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$QR_code.coverage" NAME="QR-code Coverage Results" MODIFIED="1590458738273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$ansible_result_v2_0.coverage" NAME="ansible_result-v2.0 Coverage Results" MODIFIED="1597821161230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
-    <SUITE FILE_PATH="coverage/python_study$socket_srver.coverage" NAME="socket-srver Coverage Results" MODIFIED="1578817691209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket-test" />
-    <SUITE FILE_PATH="coverage/python_study$chardet_use.coverage" NAME="chardet-use Coverage Results" MODIFIED="1582979554231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$multi_thread_map.coverage" NAME="multi_thread_map Coverage Results" MODIFIED="1590479075211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$Bzhan_Danmu.coverage" NAME="Bzhan_Danmu Coverage Results" MODIFIED="1614950278645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$records_test.coverage" NAME="records-test Coverage Results" MODIFIED="1575268612216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_study$assert.coverage" NAME="assert Coverage Results" MODIFIED="1581252644189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/28" />
     <SUITE FILE_PATH="coverage/python_study$taobao_login.coverage" NAME="taobao_login Coverage Results" MODIFIED="1590558193972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$jsonpath.coverage" NAME="jsonpath Coverage Results" MODIFIED="1556871117240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_study$distance_two_points.coverage" NAME="distance_two_points Coverage Results" MODIFIED="1577845616716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$gemini_market.coverage" NAME="gemini-market Coverage Results" MODIFIED="1581315869472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$json_read.coverage" NAME="json_read Coverage Results" MODIFIED="1598855038830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$kafka_producer__1_.coverage" NAME="kafka-producer (1) Coverage Results" MODIFIED="1587786383398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kafka-test" />
+    <SUITE FILE_PATH="coverage/python_study$fake_datas.coverage" NAME="fake_datas Coverage Results" MODIFIED="1592398596724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$get_music_v1.coverage" NAME="get_music-v1 Coverage Results" MODIFIED="1599371883113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$ansible_result_v3_0.coverage" NAME="ansible_result-v3.0 Coverage Results" MODIFIED="1597905711453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$9_9_multi_v1_0.coverage" NAME="9_9_multi_v1.0 Coverage Results" MODIFIED="1557237397065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
+    <SUITE FILE_PATH="coverage/python_study$gil.coverage" NAME="gil Coverage Results" MODIFIED="1581233906643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/23" />
+    <SUITE FILE_PATH="coverage/python_study$emotion_reg.coverage" NAME="emotion_reg Coverage Results" MODIFIED="1590464176093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$image_convert.coverage" NAME="image_convert Coverage Results" MODIFIED="1592482047263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$scrapy_lagou.coverage" NAME="scrapy-lagou Coverage Results" MODIFIED="1579137050889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
+    <SUITE FILE_PATH="coverage/python_study$pdf2word.coverage" NAME="pdf2word Coverage Results" MODIFIED="1603511708456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$word_count.coverage" NAME="word_count Coverage Results" MODIFIED="1583474437794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$excel_3.coverage" NAME="excel-3 Coverage Results" MODIFIED="1585545458502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$msg_boom.coverage" NAME="msg_boom Coverage Results" MODIFIED="1590468168602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$list_embed_v1_0.coverage" NAME="list_embed_v1.0 Coverage Results" MODIFIED="1557238203533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
+    <SUITE FILE_PATH="coverage/python_study$example_1.coverage" NAME="example-1 Coverage Results" MODIFIED="1585568358482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$jsonpath_test.coverage" NAME="jsonpath_test Coverage Results" MODIFIED="1557235354667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_study$date_format.coverage" NAME="date-format Coverage Results" MODIFIED="1577856889183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$geoip_city_minddb.coverage" NAME="geoip-city-minddb Coverage Results" MODIFIED="1590464352407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$random_str.coverage" NAME="random_str Coverage Results" MODIFIED="1597716990349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$ipaddress_1.coverage" NAME="ipaddress-1 Coverage Results" MODIFIED="1585572733324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$Love_v1_0.coverage" NAME="Love_v1.0 Coverage Results" MODIFIED="1557236874841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
+    <SUITE FILE_PATH="coverage/python_study$num_bit_sum_v1_0.coverage" NAME="num_bit_sum_v1.0 Coverage Results" MODIFIED="1557238327789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
+    <SUITE FILE_PATH="coverage/python_study$scrapy_jobs.coverage" NAME="scrapy-jobs Coverage Results" MODIFIED="1581129781411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_scrapt" />
+    <SUITE FILE_PATH="coverage/python_study$flatten_v1_0.coverage" NAME="flatten_v1.0 Coverage Results" MODIFIED="1557238091195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
+    <SUITE FILE_PATH="coverage/python_study$ansible_result_v4_0.coverage" NAME="ansible_result-v4.0 Coverage Results" MODIFIED="1598322140480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$yanzhao.coverage" NAME="yanzhao Coverage Results" MODIFIED="1615640104451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$garbage.coverage" NAME="garbage Coverage Results" MODIFIED="1581239027116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/24" />
+    <SUITE FILE_PATH="coverage/python_study$map_china.coverage" NAME="map_china Coverage Results" MODIFIED="1592467058064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$plot_func.coverage" NAME="plot_func Coverage Results" MODIFIED="1590480523802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$active_code_gen.coverage" NAME="active-code-gen Coverage Results" MODIFIED="1582942165684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask-test" />
+    <SUITE FILE_PATH="coverage/python_study$FizzBuzz.coverage" NAME="FizzBuzz Coverage Results" MODIFIED="1557235813153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/one_line_code" />
+    <SUITE FILE_PATH="coverage/python_study$web1.coverage" NAME="web1 Coverage Results" MODIFIED="1580629900814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web-framwork" />
+    <SUITE FILE_PATH="coverage/python_study$gemini_test.coverage" NAME="gemini_test Coverage Results" MODIFIED="1581256077811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$gemini_bit.coverage" NAME="gemini-bit Coverage Results" MODIFIED="1582942537397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$ansible_result_v2_0.coverage" NAME="ansible_result-v2.0 Coverage Results" MODIFIED="1597821161230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
+    <SUITE FILE_PATH="coverage/python_study$socket_srver.coverage" NAME="socket-srver Coverage Results" MODIFIED="1578817691209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket-test" />
+    <SUITE FILE_PATH="coverage/python_study$chardet_use.coverage" NAME="chardet-use Coverage Results" MODIFIED="1582979554231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py" />
     <SUITE FILE_PATH="coverage/python_study$backtest.coverage" NAME="backtest Coverage Results" MODIFIED="1581427083570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonPractice-master/simple_backtesting" />
   </component>
   <component name="DatabaseView">
@@ -134,19 +161,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py/ansible_result-v4.0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -162,6 +176,8 @@
       <find>boot</find>
       <find>shell</find>
       <find>cmd</find>
+      <find>data-</find>
+      <find>clearfix</find>
     </findStrings>
     <replaceStrings>
       <replace>co_val</replace>
@@ -183,21 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/py/gemini-bit.py" />
-        <option value="$PROJECT_DIR$/py/gemini-market.py" />
-        <option value="$PROJECT_DIR$/flask-test/app-1.py" />
-        <option value="$PROJECT_DIR$/flask-test/active-code-gen.py" />
-        <option value="$PROJECT_DIR$/version" />
-        <option value="$PROJECT_DIR$/py/big-file" />
-        <option value="$PROJECT_DIR$/py/big-file.txt" />
-        <option value="$PROJECT_DIR$/py/read-big-file1.py" />
-        <option value="$PROJECT_DIR$/py/read_big_file.py" />
-        <option value="$PROJECT_DIR$/py/chardet-use.py" />
-        <option value="$PROJECT_DIR$/py/iris_seaborn.py" />
-        <option value="$PROJECT_DIR$/py/word_count.py" />
-        <option value="$PROJECT_DIR$/py/excel-1.py" />
-        <option value="$PROJECT_DIR$/py/excel-2.py" />
-        <option value="$PROJECT_DIR$/py/excel-3.py" />
         <option value="$PROJECT_DIR$/py/example-1.py" />
         <option value="$PROJECT_DIR$/py/ipaddress-1.py" />
         <option value="$PROJECT_DIR$/kafka/kafka-consumer.py" />
@@ -234,15 +235,31 @@
         <option value="$PROJECT_DIR$/py/ansible_result-v2.0.py" />
         <option value="$PROJECT_DIR$/py/ansible_result-v3.0.py" />
         <option value="$PROJECT_DIR$/py/ansible_result-v4.0.py" />
+        <option value="$PROJECT_DIR$/py/json_read.py" />
+        <option value="$PROJECT_DIR$/py/excel_deal-v1.py" />
+        <option value="$PROJECT_DIR$/py/watch_dir-v1.py" />
+        <option value="$PROJECT_DIR$/py/pandas_profile.py" />
+        <option value="$PROJECT_DIR$/py/get_music-v1.py" />
+        <option value="$PROJECT_DIR$/py/passwd_select-v1.py" />
+        <option value="$PROJECT_DIR$/py/passwd_select-v2.py" />
+        <option value="$PROJECT_DIR$/py/scrapt_wangyimusic.py" />
+        <option value="$PROJECT_DIR$/py/scheduler_job.py" />
+        <option value="$PROJECT_DIR$/py/pdf2word.py" />
+        <option value="$PROJECT_DIR$/py/ansible_generate_inventory-v1.py" />
+        <option value="$PROJECT_DIR$/py/Bzhan_Danmu.py" />
+        <option value="$PROJECT_DIR$/py/music163.py" />
+        <option value="$PROJECT_DIR$/py/yanzhao.py" />
+        <option value="$PROJECT_DIR$/py/sendSMS.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="863" />
-    <option name="y" value="20" />
+    <option name="x" value="343" />
+    <option name="y" value="89" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
+  <component name="ProjectId" id="1vmra9RpKiSMBBXTyoY2gVRmxoy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -259,11 +276,38 @@
               <item name="python_study" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="python_study" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="py" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python_study" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="py" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="music163.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="python_study" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="py" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sendSMS.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="python_study" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="py" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="yanzhao.py" type="8704e2dd:PyFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -272,31 +316,23 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Scripts" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\python_study\py" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\python_study\pdf" />
+      <recent name="C:\project\python_study\py" />
+      <recent name="C:\project\python_study\data" />
       <recent name="C:\project\python_study\py\ansible_result-v3.0.py" />
       <recent name="C:\project\python_study" />
-      <recent name="E:\project\python\python_study\python_study" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.ansible_result-v4.0">
-    <configuration name="ansible_result-v2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ocr_test">
+    <configuration name="Bzhan_Danmu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,7 +345,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/ansible_result-v2.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/Bzhan_Danmu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,7 +354,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ansible_result-v3.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="music163" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,7 +367,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/ansible_result-v3.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/music163.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +376,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ansible_result-v4.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ocr_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,8 +388,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/ansible_result-v4.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/ocr_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,7 +397,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ansible_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sendSMS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,7 +410,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/ansible_result.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/sendSMS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,7 +419,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_str" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yanzhao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -397,7 +432,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/random_str.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/yanzhao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -408,14 +443,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ansible_result-v4.0" />
-        <item itemvalue="Python.ansible_result-v3.0" />
-        <item itemvalue="Python.ansible_result-v2.0" />
-        <item itemvalue="Python.random_str" />
-        <item itemvalue="Python.ansible_result" />
+        <item itemvalue="Python.ocr_test" />
+        <item itemvalue="Python.sendSMS" />
+        <item itemvalue="Python.yanzhao" />
+        <item itemvalue="Python.music163" />
+        <item itemvalue="Python.Bzhan_Danmu" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -492,6 +528,28 @@
       <workItem from="1597820635021" duration="2818000" />
       <workItem from="1597905514437" duration="1790000" />
       <workItem from="1598322115759" duration="4565000" />
+      <workItem from="1598408088444" duration="76000" />
+      <workItem from="1598410759700" duration="1679000" />
+      <workItem from="1598419393055" duration="614000" />
+      <workItem from="1598840395894" duration="9546000" />
+      <workItem from="1598951253601" duration="76000" />
+      <workItem from="1599120187470" duration="3096000" />
+      <workItem from="1599369124604" duration="2427000" />
+      <workItem from="1599391360543" duration="462000" />
+      <workItem from="1599568381684" duration="4372000" />
+      <workItem from="1599874255878" duration="1213000" />
+      <workItem from="1599912223483" duration="4696000" />
+      <workItem from="1600047442956" duration="17000" />
+      <workItem from="1600657169009" duration="309000" />
+      <workItem from="1603510369312" duration="1856000" />
+      <workItem from="1603940302981" duration="71000" />
+      <workItem from="1604883404413" duration="7707000" />
+      <workItem from="1604891790060" duration="171000" />
+      <workItem from="1614949279667" duration="1520000" />
+      <workItem from="1615465856180" duration="2002000" />
+      <workItem from="1615638099126" duration="2604000" />
+      <workItem from="1616209554632" duration="128000" />
+      <workItem from="1616390580075" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="my first commit">
       <created>1582944037479</created>
@@ -532,7 +590,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173854000" />
+    <option name="totallyTimeSpent" value="219703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,23 +604,24 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31343284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32597265" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980484" weight="0.21258135" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.39559287" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3253796" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980484" weight="0.3253796" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.39479393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4144806" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4143167" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019516" side_tool="true" weight="0.3216" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.27906978" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="SonarLint" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -609,169 +668,22 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="my first commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/big-file" />
-    <entry file="file://$PROJECT_DIR$/py/read_big_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/read-big-file1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/big-file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/chardet-use.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/iris_seaborn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="e#321#359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/excel-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding>
-            <element signature="e#317#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/excel-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/excel-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/ipaddress-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="e#321#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/example-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/kafka-consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="e#324#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/geoip-city.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-test/kafka-producer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/kafka/producer/kafka.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="110" column="29" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/code.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/word_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/wc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/wordcloud-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="e#321#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/QR-code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/wchy.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/geoip-city-minddb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/paddlehub/module/module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
@@ -1008,8 +920,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py/ansible_result-v4.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        <state relative-caret-position="448">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/excel-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/excel-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/excel_deal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#134#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/json_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="e#318#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/watch_dir-v1.py" />
+    <entry file="file://$PROJECT_DIR$/dist/machine.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/get_music-v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="e#321#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/pandas_profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="e#322#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/passwd_select-v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/passwd_select-v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="2981" column="24" selection-start-line="2981" selection-start-column="15" selection-end-line="2981" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/excel_deal-v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="73" column="65" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/scheduler_job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#322#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/apscheduler/schedulers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="454" column="58" selection-start-line="454" selection-start-column="58" selection-end-line="454" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/scrapt_wangyimusic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding>
+            <element signature="e#334#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/hosts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/pdf2word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+          <folding>
+            <element signature="e#318#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/yanzhao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/music163.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <folding>
+            <element signature="e#318#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/Bzhan_Danmu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#319#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/ansible_generate_inventory-v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/sendSMS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#316#325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

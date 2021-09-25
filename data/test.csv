@@ -1,0 +1,248 @@
+vir_use,hostname,cpu_num,mem,usage
+测试虚机,nfsbak,4.0,16G,文件共享备份
+测试虚机,,,,
+ibm3850x5集群,CA_development_01,8.0,16G,CA开发系统
+ibm3850x5集群,bjcatdmstest,32.0,32G,CA测试系统
+ibm3850x5集群,saletest2,2.0,4G,人管测试
+ibm3850x5集群,sharefile,4.0,8G,人保E通联合团队共享文件服务器
+ibm3850x5集群,js-server,8.0,16G,精算系统
+ibm3850x5集群,solarwinds,2.0,4G,网络监控
+ibm3850x5集群,cfbs2,4.0,16G,偿付能力二代报送系统
+ibm3850x5集群,calltest2,2.0,8G,呼叫中心测试
+ibm3850x5集群,calltest3,8.0,8G,呼叫中心新回访系统测试
+ibm3850x5集群,CA_test_02,4.0,8G,CA测试系统
+ibm3850x5集群,test3,4.0,8G,核心测试
+ibm3850x5集群,calltest,4.0,16G,呼叫中心测试
+ibm3850x5集群,ebao-test10,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,SPHY-HG,2.0,8G,视频会议会管系统
+ibm3850x5集群,it-test12,2.0,16G,IT部跑批服务器
+ibm3850x5集群,sepm-cym,4.0,8G,朝阳门新sepm
+ibm3850x5集群,pam02,8.0,16G,pam账户管理系统测试服务器
+ibm3850x5集群,helpdesk-app,8.0,16G,桌管应用
+ibm3850x5集群,helpdesk-db,8.0,16G,桌管数据库
+ibm3850x5集群,cccq2,8.0,16G,cccq数据库
+ibm3850x5集群,edrbtest,2.0,4G,E动人保开发服务器
+ibm3850x5集群,js-test,4.0,16G,精算测试服务器
+ibm3850x5集群,virtest,4.0,16G,病毒测试服务器
+ibm3850x5集群,FTPServer,4.0,8G,新ftp服务器
+ibm3850x5集群,cccq-2,8.0,16G,cccq数据库
+ibm3850x5集群,datavss,2.0,4G,数据平台VSS
+ibm3850x5集群,printtest,4.0,8G,保单打印测试
+ibm3850x5集群,sepm1,4.0,8G,symantec服务器
+ibm3850x5集群,softconf,2.0,4G,软视频会议
+ibm3850x5集群,test2,4.0,8G,sap应用
+ibm3850x5集群,it-test11,2.0,16G,IT部跑批服务器
+ibm3850x5集群,callserver,4.0,8G,呼叫中心生产应用
+ibm3850x5集群,ls-uat02,4.0,8G,益高统一输出平台UAT环境
+ibm3850x5集群,pxgltestdb01,8.0,32G,培训管理数据库开发测试系统
+ibm3850x5集群,bank-modem,2.0,4G,银保通拨号
+ibm3850x5集群,caltest1,4.0,8G,呼叫中心测试
+ibm3850x5集群,bap01,16.0,64G,大数据测试应用节点
+ibm3850x5集群,rn-apptest01,4.0,8G,移动平台RN小程序应用测试服务器
+ibm3850x5集群,rn-dbtest01,8.0,16G,移动平台RN小程序数据库测试服务器
+ibm3850x5集群,it-test14,2.0,16G,IT部跑批服务器
+ibm3850x5集群,pxgltestapp02,8.0,16G,培训管理应用开发测试系统
+ibm3850x5集群,rn-redistest01,4.0,8G,rn小程序redis测试系统
+ibm3850x5集群,it-test1,4.0,16G,核心系统开发终端（内部）
+ibm3850x5集群,it-test2,4.0,16G,核心系统开发终端（内部）
+ibm3850x5集群,it-test5,4.0,16G,核心系统开发终端（内部）
+ibm3850x5集群,it-test6,4.0,16G,核心系统开发终端（内部）
+ibm3850x5集群,it-test7,4.0,16G,核心系统开发终端（内部）
+ibm3850x5集群,it-test8,4.0,16G,核心系统开发终端（内部）
+ibm3850x5集群,ls-dev,4.0,8G,益高统一输出平台开发和SIT环境
+ibm3850x5集群,pxgltestapp01,8.0,16G,培训管理应用开发测试系统
+ibm3850x5集群,saletest1,2.0,4G,人管测试
+ibm3850x5集群,ebao-test12,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,cccq-utjoz8qb70,4.0,8G,cccq域控服务器
+ibm3850x5集群,xssyl-test01,8.0,8G,信手书临时压力测试
+ibm3850x5集群,it-test10,4.0,16G,核心系统开发终端（内部）
+ibm3850x5集群,ebao-test1,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,ebao-test3,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,ebao-test5,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,ebao-test6,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,ebao-test8,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,ebao-test9,4.0,16G,核心系统开发终端（ebao）
+ibm3850x5集群,rgznhb-test,8.0,32G,人工智能核保测试服务器
+ibm3850x5集群,yytest2,16.0,16G,影音系统测试服务器
+ibm3850x5集群,cccq1,4.0,8G,cccq应用服务器
+ibm3850x5集群,test4,2.0,4G,核心开发服务器
+ibm3850x5集群,nettool,4.0,4G,网络监控
+ibm3850x5集群,it-test13,2.0,16G,IT部跑批服务器
+ibm3850x5集群,rdh,4.0,8G,呼叫中心软电话测试服务器
+ibm3850x5集群,bap02,16.0,64G,大数据测试应用节点oracle
+ibm3850x5集群,hstest,4.0,8G,核算系统测试开发环境
+ibm3850x5集群,ls-uat01,4.0,8G,益高统一输出平台UAT环境
+ibm3850x5集群,dxptcs,8.0,16G,短信平台测试服务器
+ibm3850x5集群,pam01,8.0,16G,pam账户管理系统测试服务器
+ibm3850x5集群,NDC02,8.0,16G,朝阳门新域控
+HP DL580 G7集群,jruletest3,2.0,64G,规则引擎测试服务器
+HP DL580 G7集群,jruletest4,2.0,16G,规则引擎测试服务器
+HP DL580 G7集群,GSDBserver-KF,4.0,16G,团险销售支持开发数据库
+HP DL580 G7集群,ITSMTEST,4.0,8G,IT运维平台测试机
+HP DL580 G7集群,hr-app-test,16.0,16G,人力应用测试服务器
+HP DL580 G7集群,jira,4.0,8G,JIRA应用服务器
+HP DL580 G7集群,ou-cym1,4.0,8G,区庆健南北中心网络连通测试
+HP DL580 G7集群,CCYYFX-db01,4.0,8G,智能质检测试数据库服务器
+HP DL580 G7集群,devops01,4.0,8G,业务系统自动化发布测试服务器
+HP DL580 G7集群,robot-test,8.0,16G,智能问答机器人系统测试应用
+HP DL580 G7集群,hr-db-test,16.0,16G,人力数据库测试服务器
+HP DL580 G7集群,it-test17,4.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,facetest01,8.0,16G,人脸识别测试系统
+HP DL580 G7集群,esight2,8.0,16G,esight系统
+HP DL580 G7集群,jira-mysql,4.0,8G,jira数据库mysql服务器
+HP DL580 G7集群,testapp01,2.0,8G,银保通测试服务器
+HP DL580 G7集群,hxdmzl01,8.0,16G,核心系统代码治理测试服务器
+HP DL580 G7集群,hrtestdb01,8.0,16G,HR数据库测试系统
+HP DL580 G7集群,devops02,4.0,8G,业务系统自动化发布测试服务器
+HP DL580 G7集群,test10-n,8.0,32G,核心开发测试服务器
+HP DL580 G7集群,DSDB,8.0,16G,微信代理人测试服务器
+HP DL580 G7集群,dbavss,4.0,8G,DBA文档服务器
+HP DL580 G7集群,pocsvr15,4.0,16G,渠道整合测试服务器
+HP DL580 G7集群,YB-mysql,8.0,16G,银保部系统
+HP DL580 G7集群,SPHY-HJ,2.0,8G,视频会议话机服务器
+HP DL580 G7集群,HFZJDB,8.0,16G,回访质检数据库测试
+HP DL580 G7集群,KMSSVR,4.0,8G,office激活服务器
+HP DL580 G7集群,CCYYFX-app01,8.0,16G,智能质检测试应用服务器
+HP DL580 G7集群,score-web,4.0,16G,新版网络效评应用测试系统
+HP DL580 G7集群,CCYYFX-app02,8.0,32G,智能质检测试应用服务器
+HP DL580 G7集群,imtest02,4.0,16G,影像测试服务器
+HP DL580 G7集群,it-test16,4.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,GSDOCserver-CS,4.0,8G,团险销售支持测试文档服务器
+HP DL580 G7集群,shitang,4.0,8G,食堂打卡数据存储服务器
+HP DL580 G7集群,DSPT,4.0,8G,微信代理人测试数据库
+HP DL580 G7集群,GSAPP-KF,4.0,8G,团险销售支持开发
+HP DL580 G7集群,GSDOCserver-KF,4.0,8G,团险销售支持开发文档服务器
+HP DL580 G7集群,CCYYFX-app05,8.0,16G,智能质检测试应用服务器
+HP DL580 G7集群,HFZJAPP,4.0,8G,回访质检应用测试
+HP DL580 G7集群,zgdbxzapp2,4.0,8G,桌管补丁下载服务器系统
+HP DL580 G7集群,aipoctest1,16.0,32G,AI平台poc测试应用服务器
+HP DL580 G7集群,neokylin01,4.0,4G,中标麒麟系统数据库测试
+HP DL580 G7集群,caxss-test01,4.0,8G,CA信手书测试系统
+HP DL580 G7集群,rpa-pocdb01,8.0,16G,RPA项目POC数据库测试服务器
+HP DL580 G7集群,facetest02,8.0,16G,人脸识别测试系统
+HP DL580 G7集群,SJCJJK02,4.0,8G,数据采集监控服务器-朝阳门机房
+HP DL580 G7集群,CC-ZSK-APP,4.0,16G,呼叫中心知识库应用服务器
+HP DL580 G7集群,devops03,4.0,16G,业务系统自动化发布测试服务器
+HP DL580 G7集群,it-test3n,8.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,zgnwaqapp1,4.0,8G,桌管内网安全管理及补丁分发系统
+HP DL580 G7集群,it-test15,4.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,imtest01,4.0,16G,影像测试服务器
+HP DL580 G7集群,rpa-pocapp01,4.0,8G,RPA项目POC应用测试服务器
+HP DL580 G7集群,GSAPP-CS,4.0,8G,团险销售支持测试
+HP DL580 G7集群,newnfs,4.0,16G,新文件共享服务器
+HP DL580 G7集群,oneview,2.0,10G,HP监控
+HP DL580 G7集群,pocmonitor,4.0,8G,poc监控环境
+HP DL580 G7集群,GSPC-KF,4.0,8G,团险销售支持PC端应用开发
+HP DL580 G7集群,AI-test,4.0,32G,智能核保AI平台测试环境
+HP DL580 G7集群,it-test4n,8.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,facepoc01,8.0,16G,人脸识别测试系统
+HP DL580 G7集群,imtest04,4.0,16G,影像测试开发服务器
+HP DL580 G7集群,it-test19,4.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,ebao-test15,4.0,8G,渠道平台ebao人员开发机
+HP DL580 G7集群,ECIF-KF,4.0,16G,ECIF开发机
+HP DL580 G7集群,JSZ,2.0,4G,投资部金手指系统
+HP DL580 G7集群,muletest3,8.0,16G,mule测试环境
+HP DL580 G7集群,oatest,4.0,8G,OA测试服务器
+HP DL580 G7集群,bzxmonitor01,12.0,16G,统一监控平台朝阳门代理服务器
+HP DL580 G7集群,csyfzxdev01,4.0,8G,长沙研发中心专用虚拟机
+HP DL580 G7集群,szzs-test01,8.0,16G,数字证书测试服务器
+HP DL580 G7集群,szzs-test02,8.0,16G,数字证书测试服务器
+HP DL580 G7集群,neokylin03,4.0,4G,中标麒麟系统数据库测试
+HP DL580 G7集群,ebao-test14,4.0,8G,渠道平台ebao人员开发机
+HP DL580 G7集群,webtest,2.0,4G,官网测试服务器
+HP DL580 G7集群,webbak,2.0,4G,官网备份服务器
+HP DL580 G7集群,mt-forum,4.0,8G,运维处内部论坛
+HP DL580 G7集群,dhzxapp01,4.0,16G,电话中心呼入系统测试应用服务器
+HP DL580 G7集群,hxdmzl02,8.0,16G,核心系统代码治理测试服务器
+HP DL580 G7集群,CCYYFX-app03,8.0,16G,智能质检测试应用服务器
+HP DL580 G7集群,robot-test-oracle01,4.0,8G,智能问答机器人系统测试数据库
+HP DL580 G7集群,xmglapptest01,4.0,16G,项目管理平台应用测试系统
+HP DL580 G7集群,it-test20,4.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,hs-dev01,2.0,16G,核算系统开发环境
+HP DL580 G7集群,ractest1,8.0,16G,oracle 18C测试环境
+HP DL580 G7集群,facetest04,8.0,16G,人脸识别测试系统
+HP DL580 G7集群,360test,4.0,8G,360测试服务器
+HP DL580 G7集群,vdi-xulijiang,4.0,8G,徐立江citrix独立桌面
+HP DL580 G7集群,GSDBserver-CS,4.0,16G,团险销售支持测试数据库
+HP DL580 G7集群,moaapptest,16.0,16G,移动OA测试服务器
+HP DL580 G7集群,dhzxdb01,4.0,32G,电话中心呼入系统测试数据库服务器
+HP DL580 G7集群,hxdmzl03,8.0,32G,核心系统代码治理测试服务器
+HP DL580 G7集群,CCYYFX-app04,8.0,16G,智能质检测试应用服务器
+HP DL580 G7集群,ECIF-KF1,8.0,16G,ECIF开发机
+HP DL580 G7集群,FBD-control,8.0,8G,亚信防病毒测试系统控制端
+HP DL580 G7集群,xmgldbtest01,4.0,16G,项目管理平台数据库测试系统
+HP DL580 G7集群,hs-dev03,2.0,16G,核算系统开发环境
+HP DL580 G7集群,NDC01,8.0,16G,朝阳门域控
+HP DL580 G7集群,N3GRPDG,4.0,8G,团险建议书灾备
+HP DL580 G7集群,svnserver,8.0,32G,渠道整合开发服务器
+HP DL580 G7集群,elmonitor,2.0,4G,电商监控服务器
+HP DL580 G7集群,elvss,2.0,4G,电商文档服务器
+HP DL580 G7集群,hxdmzl04,8.0,32G,核心系统代码治理测试服务器
+HP DL580 G7集群,oatest2,8.0,16G,新OA测试服务器
+HP DL580 G7集群,FBD-server,8.0,8G,亚信防病毒测试系统服务器端
+HP DL580 G7集群,wxsvn,2.0,4G,微信系统SVN开发环境
+HP DL580 G7集群,ebao-test13,16.0,32G,渠道平台ebao人员开发机
+HP DL580 G7集群,facetest03,8.0,16G,人脸识别测试系统
+HP DL580 G7集群,printnew,4.0,8G,新打印机管理服务器
+HP DL580 G7集群,qztest,4.0,8G,奇志堡垒机
+HP DL580 G7集群,neokylin04,4.0,4G,中标麒麟系统数据库测试
+HP DL580 G7集群,imtest03,4.0,16G,影像测试开发服务器
+HP DL580 G7集群,CC-ZSK-DB,4.0,32G,呼叫中心知识库数据库服务器
+HP DL580 G7集群,HR-ceping,4.0,16G,人力测评系统
+HP DL580 G7集群,muletest1,8.0,16G,mule测试环境
+HP DL580 G7集群,muletest2,8.0,16G,mule测试环境
+HP DL580 G7集群,QDPT-SVN,4.0,16G,渠道平台SVN服务器
+HP DL580 G7集群,GSPC-CS,4.0,8G,团险销售支持PC端应用测试
+HP DL580 G7集群,score-db,4.0,8G,新版网络效评数据库测试系统
+HP DL580 G7集群,facetest05,8.0,16G,人脸识别测试系统
+HP DL580 G7集群,hs-dev02,2.0,16G,核算系统开发环境
+HP DL580 G7集群,print,4.0,8G,办公网络打印机服务器
+HP DL580 G7集群,ractest2,8.0,16G,oracle 18C测试环境
+HP DL580 G7集群,qztest1,16.0,32G,奇志堡垒机
+HP DL580 G7集群,it-test18,4.0,16G,核心系统开发测试终端（内部）
+HP DL580 G7集群,test5,4.0,16G,易保无锡追加开发人员开发环境
+HP DL580 G7集群,test7,4.0,16G,易保无锡追加开发人员开发环境
+HP DL580 G7集群,test9,4.0,16G,追加2名内部开发人员
+HP DL580 G7集群,test12,4.0,16G,接口组需追加2名开发人员
+HP DL580 G7集群,neokylin02,4.0,4G,中标麒麟系统数据库测试
+HP DL580 G7集群,esight,8.0,16G,华为管理服务器
+baofutong集群,el_appdev01,8.0,8G,电商报表查询系统开发应用
+baofutong集群,wxqy01,4.0,8G,移动平台测试
+baofutong集群,gexian,8.0,16G,个险服务器
+baofutong集群,el_apptest,8.0,8G,电商报表查询系统测试应用
+baofutong集群,bft-db02,8.0,32G,保互通数据库
+baofutong集群,wxqy02,4.0,8G,移动平台mule外联测试
+baofutong集群,N3CISAP01,4.0,8G,微网站持续集成测试环境
+baofutong集群,N3CISAP02,4.0,8G,微网站持续集成测试环境
+baofutong集群,el_db,8.0,16G, 电商报表查询系统测试数据库
+CYM-DMZ集群,bft-sys3,4.0,8G,保互通平台
+CYM-DMZ集群,ZXSJ,2.0,16G,数据咨询服务器
+CYM-DMZ集群,bft-sys4,4.0,8G,保互通平台
+CYM-DMZ集群,Tymonitor,8.0,16G,移动平台听云监控服务器
+HP DL580 G8集群,ebaotest01,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest04,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest07,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest10,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest02,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest05,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest08,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest03,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest06,16.0,32G,ebao核心系统登录开发机
+HP DL580 G8集群,ebaotest09,16.0,32G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev01,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev10,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev17,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev05,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev02,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev11,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev06,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev03,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev07,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev12,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev08,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev04,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev13,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev14,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev15,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev16,16.0,24G,ebao核心系统登录开发机
+CYM-HW2288集群 ,ebaodev09,16.0,24G,ebao核心系统登录开发机

@@ -8,11 +8,11 @@
 
 </head>
 <body>
-    <div id="412dd3d486924169ad5ded6abf2de818" class="chart-container" style="width:900px; height:800px;"></div>
+    <div id="21cde465e52446f9b0ea17d543a64e5e" class="chart-container" style="width:900px; height:800px;"></div>
     <script>
-        var chart_412dd3d486924169ad5ded6abf2de818 = echarts.init(
-            document.getElementById('412dd3d486924169ad5ded6abf2de818'), 'white', {renderer: 'canvas'});
-        var option_412dd3d486924169ad5ded6abf2de818 = {
+        var chart_21cde465e52446f9b0ea17d543a64e5e = echarts.init(
+            document.getElementById('21cde465e52446f9b0ea17d543a64e5e'), 'white', {renderer: 'canvas'});
+        var option_21cde465e52446f9b0ea17d543a64e5e = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -120,7 +120,11 @@
                 }
             ],
             "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
             "zoom": 1,
+            "mapValueCalculation": "sum",
             "showLegendSymbol": true,
             "emphasis": {}
         }
@@ -147,10 +151,15 @@
         "axisPointer": {
             "type": "line"
         },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
         "textStyle": {
             "fontSize": 14
         },
-        "borderWidth": 0
+        "borderWidth": 0,
+        "padding": 5
     },
     "title": [
         {
@@ -213,7 +222,7 @@
         ]
     }
 };
-        chart_412dd3d486924169ad5ded6abf2de818.setOption(option_412dd3d486924169ad5ded6abf2de818);
+        chart_21cde465e52446f9b0ea17d543a64e5e.setOption(option_21cde465e52446f9b0ea17d543a64e5e);
     </script>
 </body>
 </html>
