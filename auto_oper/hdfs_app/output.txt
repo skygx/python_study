@@ -1,0 +1,17 @@
+"ab"	2
+"abc"	3
+"ac"	1
+"bar"	2
+"bc"	1
+"bec"	1
+"by"	1
+"foo"	4
+"hadoop"	1
+"labs"	2
+"me"	1
+"python"	2
+"quux"	2
+"see"	1
+"test"	2
+"welcome"	1
+"you"	1

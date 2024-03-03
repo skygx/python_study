@@ -1,0 +1,15 @@
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Location: /login
+Pragma: no-cache
+Set-Cookie: redirect_to=%2F; Path=/; HttpOnly; SameSite=Lax
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+Date: Wed, 23 Mar 2022 01:43:37 GMT
+Content-Length: 29
+
+<a href="/login">Found</a>.
+

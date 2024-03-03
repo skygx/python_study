@@ -1,0 +1,12 @@
+"/"	28
+"/download"	1
+"/favicon.ico"	6
+"/myadmin"	4
+"/myadmin/"	1
+"/phpMyAdmin/"	1
+"/phpmyadmin"	2
+"/phpmyadmin/"	8
+"/status"	2
+"/tool"	3
+"/tool/"	9
+"/upload"	1
