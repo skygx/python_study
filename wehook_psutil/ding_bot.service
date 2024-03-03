@@ -1,0 +1,12 @@
+[Unit]
+Description=Dingding Bot service
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/python3 /root/Project/Little_project/DingdingBot/scheduler.py
+KillMode=process
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target
