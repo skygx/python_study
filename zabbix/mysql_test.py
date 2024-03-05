@@ -179,7 +179,7 @@ class Test:
         stoptime = time.time() - 7 * 3600
         startime = time.time()
         host_info_list = self.getitemid()
-        # print host_info_list
+        # print(host_info_list)
         host_dict = {}
         for ip in host_info_list:
             host_info = host_info_list[ip]
@@ -195,8 +195,10 @@ class Test:
                 # itemname = host_info[i][2]['itemname']
                 unit = host_info[i][6]['unit']
                 title = host_info[i][0]['title']
-                sql = "select avg(value_%s)/%s result from %s where itemid=%s and clock<=%d and clock>=%d" % (
-                    value, ratio, table, itemid, startime, stoptime)
+                # sql = "select avg(value_%s)/%s result from %s where itemid=%s and clock<=%d and clock>=%d" % (
+                #     value, ratio, table, itemid, startime, stoptime)
+                sql = "select avg(value_%s)/%s result from %s where itemid=%s" % (
+                    value, ratio, table, itemid)
                 self.cursor.execute(sql)
                 result = self.cursor.fetchone()[0]
                 # print(result)
@@ -421,5 +423,5 @@ if __name__ == '__main__':
     # f=t.dispalyvalue()
     g=t.createreport()
     # print(a)
-    # print(b)
-    # print(e)
+    # print(d)
+    print(e)

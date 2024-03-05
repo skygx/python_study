@@ -1,0 +1,2 @@
+Last login: Fri Mar 25 09:45:08 2022 from 192.168.226.1
+]0;root@prom:~[?1034h[root@prom ~]# 
