@@ -1,0 +1,75 @@
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true"  >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editModalLabel">Url Message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {% include 'edit_form.html' %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="closeEditModal" data-dismiss="modal" >Close</button>
+        <button type="button" class="btn btn-primary" id="saveEditModal" >Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+$('#editModal').on('hide.bs.modal', function () {
+  console.log('modal hide');
+  $('body').removeClass('modal-open');
+  $('.modal-backdrop').remove();
+});
+
+$('#editModal').on('hidden.bs.modal', function (event) {
+  console.log('modal hidden');
+  window.location.reload();
+});
+
+  $('#saveEditModal').click(function() {
+    console.log('saveEditModal');
+    var name = $('#edit_name').val();
+    var env = $('#edit_env').val();
+    var location = $('#edit_location').val();
+    var ip = $('#edit_ip').val();
+    var port = $('#edit_port').val();
+    var url = $('#edit_url').val();
+    var key = $('#edit_key').val();
+    var id = $('#edit_id').val();
+  var desc = $('#edit_desc').val();
+  var data = {
+    'name': name,
+    'env': env,
+    'location': location,
+    'ip': ip,
+    'port': port,
+    'url': url,
+    'key': key,
+    'id': id,
+    'desc': desc
+  };
+  console.log(data);
+  $.ajax({
+    url: '/api/edit/' + id,
+    type: 'POST',
+    data: data,
+    success: function(response) {
+      $('#editModal').modal('hide');
+      $('body').removeClass('modal-open');
+      $('.modal-backdrop').remove();
+    },
+    error: function(xhr, status, error) {
+      console.log(xhr.responseText);
+      console.log(status);
+      console.log(error);
+    },
+
+  });
+  });
+
+
+</script>

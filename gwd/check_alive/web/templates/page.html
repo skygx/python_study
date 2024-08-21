@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block title %}{{env}} Environment Page{% endblock %}
+
+{% block content %}
+
+<table id="table-env" class="table table-bordered table-hover table-striped table-responsive-md">
+    <thead class="thead thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>APP</th>
+            <th>URL</th>
+            <th>STATUS</th>
+        </tr>
+    </thead>
+</table>
+<script >
+    var env = "{{ env | safe }}";
+    var serverUrl = '';
+    var columns = [
+        {
+            field: 'id',
+            title: 'ID',
+            formatter: function (value, row, index) {
+                return index + 1; // 返回行的索引+1，作为序号
+            }
+        },
+        {
+    field: 'name',
+    title: 'APP',
+    sortable: true
+  },
+   {
+    field: 'url',
+    title: 'URL'
+  }, {
+    field: 'status',
+    title: 'STATUS',
+    //width: 300,
+    sortable: true
+  }]
+   $('#table-env').bootstrapTable({
+    url: serverUrl + `/api/${env}`,
+    type: 'POST',
+    dataType: 'json',
+    height:800,
+    undefinedText:"_",           //当数据为 undefined 时显示的字符。
+    sidePagination: 'client',
+    cache: true,
+    pagination: true,             //是否显示分页（*）
+    showRefresh: true, //显示刷新按钮
+    showToggle:true,        //是否显示详细视图和列表视图的切换按钮
+    showColumns: true, //显示下拉框勾选要显示的列
+    pagination: true,   //在表格底部显示分页工具栏
+    striped: true,        //是否显示行间隔色
+    pageNumber:1, //当前第几页
+    pageSize: 15, //每页显示的记录数
+    pageList: [5, 10, 15, 20, 25], //记录数可选列表
+    toolbar: "#toolbar",   //设置工具栏的Id或者class
+    paginationPreText:"<<",
+    paginationNextText:">>",
+    dataView: false,                        // 是否显示父子表
+    showExport: true,                       // 是否显示导出选项
+    exportDataType: 'all',                  // 导出选项
+    //clickToSelect: true,    //点击行即可选中单选/复选框
+    //iconSize: "outline",
+    cardView: false,//设置为True时显示名片（card）布局
+    detailView: false, //是否显示父子表的详细视图
+    singleSelect: true,//复选框只能选择一条记录
+    search: true,    //是否显示右上角的搜索框
+    download: true,  //是否显示导出按钮
+    //showSearchButton: true,
+    buttonsPrefix: 'btn btn-primary',		// 修改工具栏按钮样式
+    icons: {
+        paginationSwitchDown: 'fa-toggle-on',
+        paginationSwitchUp: 'fa-toggle-off',
+        refresh: 'fa-refresh',
+        toggle: 'fa-th-list',
+        columns: 'fa-th',
+        export: 'fa-download'
+        // 您可以继续添加更多的图标
+    },
+  rowStyle: function(row, index) {
+        var status = $.trim(row.status);
+        // 根据某个字段的值改变颜色
+        if (status == 1) {
+            return {css: {'background-color': 'green'}};
+        } else if (status == 0) {
+            return {css: {'background-color': 'red'}};
+        }
+        return "";
+    },
+  columns: columns
+})
+</script>
+
+{% endblock %}

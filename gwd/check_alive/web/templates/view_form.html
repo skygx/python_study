@@ -1,0 +1,45 @@
+<div class="container">
+    <form id="modal-form"  method="get">
+<!--    <form id="form" >-->
+      <div class="form-group">
+        <label for="modal_name">Name</label>
+        <input type="text" class="form-control" id="modal_name" name="modal_name" value="{{ name }}">
+      </div>
+      <div class="form-group">
+        <label for="modal_env">Evironment</label>
+        <input type="text" class="form-control" id="modal_env" name="modal_env" list=env_list required>
+          <datalist id="env_list">
+              <option value="ver">
+              <option value="prod">
+              <option value="fat">
+              <option value="uat">
+              <option value="pet">
+          </datalist>
+      </div>
+      <div class="form-group">
+        <label for="modal_location">Location</label>
+        <input type="text" class="form-control" id="modal_location" name="modal_location" minlength="2" maxlength="5" required>
+      </div>
+      <div class="form-group">
+        <label for="modal_ip">IP</label>
+        <input type="ip" class="form-control" id="modal_ip" name="modal_ip" required>
+      </div>
+      <div class="form-group">
+        <label for="modal_port">PORT</label>
+        <input type="port" class="form-control" id="modal_port" name="modal_port" required>
+      </div>
+      <div class="form-group">
+        <label for="modal_url">URL</label>
+        <input type="text" class="form-control" id="modal_url" name="modal_url" required>
+      </div>
+      <div class="form-group">
+        <label for="modal_key">KEY</label>
+        <input type="text" class="form-control" id="modal_key" name="modal_key" required>
+      </div>
+      <div class="form-group">
+        <label for="modal_desc">Description</label>
+        <input type="text" class="form-control" id="modal_desc" name="modal_desc">
+      </div>
+
+    </form>
+  </div>

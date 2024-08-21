@@ -1,6 +1,6 @@
 #/usr/bin/env python
 # -*- coding:utf-8 -*-
-'''
+"""
     @Project :   Pyproject
     @File    :   starlette_test.py
     @Contact :   guoxin_well@126.com
@@ -10,7 +10,7 @@
 ------------      -------    --------    -----------
 2024/1/12 下午 2:50   hello      1.0         None
 
-'''
+"""
 
 from starlette.applications import Starlette
 from starlette.responses import JSONResponse

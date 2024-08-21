@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-table.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/css/tableexport.min.css">
+    <link rel="stylesheet" href="/static/css/tableexport.css">
+    <link rel="stylesheet" href="/static/css/local_define.css">
+<!--    <link rel="stylesheet" href="static/css/jquery.dropdown.min.css">-->
+    <link rel="stylesheet" href="/static/fa/css/all.css">
+    <script src="/static/js/jquery-3.7.1.min.js"></script>
+<!--    <script src="static/js/popper.js"></script>-->
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap-paginator.js"></script>
+    <script src="/static/js/bootstrap-table.min.js"></script>
+    <script src="/static/js/bootstrap-table-zh-CN.min.js"></script>
+    <script src="/static/js/local_define.js"></script>
+<!--    <script src="static/js/tableexport.min.js"></script>-->
+<!--    <script src="static/js/bootstrap-table-export.js"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.3"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.6"></script>-->
+</head>
+<body>
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-md-1">
+             <nav class="sidebar sidebar-offcanvas page-body-wrapper" id="sidebar">
+    <div class="sidbar-sticky">
+         <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-home menu-icon"></i>
+                <span class="menu-title">Home</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-chart-bar menu-icon"></i>
+                <span class="menu-title">Charts</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-table menu-icon"></i>
+                <span class="menu-title">Tables</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="far fa-file-alt menu-icon"></i>
+                <span class="menu-title">Pages</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <i class="fas fa-cog menu-icon"></i>
+                <span class="menu-title">Settings</span>
+            </a>
+        </li>
+    </ul>
+    </div>
+</nav>
+        </div>
+        <div class="col-md-11">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-responsive">
+          <a class="navbar-brand" href="/">Check Alive</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse dropdown" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownVLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    VER
+                    <span class="sr-only">(current)</span>
+                </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownVLink">
+        <!--          <a class="dropdown-item" href="/ver1">VER1</a>-->
+                  <a class="dropdown-item" href="/ver">VER</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    FAT
+                </a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdownFLink">
+                  <a class="dropdown-item" href="/fat">FAT</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownULink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    UAT
+                </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownULink">
+                  <a class="dropdown-item" href="/uat">UAT1</a>
+                  <a class="dropdown-item" href="/uat2">UAT2</a>
+                  <a class="dropdown-item" href="/uat3">UAT3</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PET
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/pet">PET</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/prod" id="navbarProdLink" >
+                    PROD
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/all" id="navbarAllLink" >
+                    ALL
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/api/form" id="navbarFormLink" >
+                    Config
+                    </a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+

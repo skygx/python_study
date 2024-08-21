@@ -1,0 +1,54 @@
+<style>
+.row-same-height > tr {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+tr {
+height: 10px;
+}
+
+/* Custom sidebar navigation */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Be sure to change the value of this based on your project's needs */
+  padding: 48px 0 0; /* Logo height + navigation padding */
+  width: 9%; /* Sidebar width */
+  height: 100%; /* Full height */
+  background-color: #3f51b5; /* Sidebar background */
+  //overflow-y: scroll; /* Scrollable contents if viewport is shorter than content */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: rgba(255, 255, 255, .75);
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 16px;
+  color: rgba(255, 255, 255, .75);
+}
+
+.sidebar .nav-link.active {
+  color: white;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: white;
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-y: auto;
+  background-color: #3f51b5;
+}
+</style>

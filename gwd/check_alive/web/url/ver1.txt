@@ -1,0 +1,4 @@
+back 192.168.226.20 88 bk_svr hello
+log 192.168.226.20 80 log.html info
+nginx 192.168.226.20 80 index.html nginx
+ip 192.168.226.20 88 ip hello

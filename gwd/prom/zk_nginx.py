@@ -47,7 +47,7 @@ print nginx_config
 #    include /etc/nginx/conf.d/*.conf;
 #    server {
 #        listen       5555 default_server;
-#        index index.php index.html;
+#        index index.php home.html;
 #        server_name  _;
 #        root         /usr/share/nginx/html;
 #        include /etc/nginx/default.d/*.conf;

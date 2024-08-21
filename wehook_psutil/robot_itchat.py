@@ -43,10 +43,12 @@ class WeChat:
                   }
         req = requests.post(url, params=values)
         data = json.loads(req.text)
+        # print(data["access_token"])
         return data["access_token"]
 
     def send_data(self, message):
         send_url = 'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=' + self._get_access_token()
+        print(send_url)
         send_values = {
             "touser": self.TOUSER,
             "msgtype": "text",

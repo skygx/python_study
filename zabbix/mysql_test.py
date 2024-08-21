@@ -23,8 +23,8 @@ zbx_dbname = 'zabbix'
 
 # 需要查询的服务器所在组名
 groupname = 'Linux servers'
-date = time.strftime("%Y%m%d", time.localtime())
-fname = 'Zabbix_Report_weekly_%s.xlsx' % date
+
+
 
 keys = [
     [u'CPU平均空闲值', 'trends', 'system.cpu.util[,idle]', 'avg', '%.2f', 1, ''],
@@ -95,14 +95,15 @@ keys_mem = Title[14]
 keys_cpu = Title[0]
 
 class Test:
-    def __init__(self):
+    def __init__(self,groupname):
         self.conn = pymysql.connect(host=zbx_host, port=zbx_port, user=zbx_username, passwd=zbx_password, db=zbx_dbname,
                                     charset="utf8")
+        self.groupname=groupname
         self.cursor = self.conn.cursor()
 
 
     def getgroupid(self):
-        sql = "select groupid from hstgrp where name='%s'" % groupname
+        sql = "select groupid from hstgrp where name='%s'" % self.groupname
         self.cursor.execute(sql)
         # groupid = self.cursor.fetchone()['groupid']
         groupid = self.cursor.fetchone()[0]
@@ -254,6 +255,8 @@ class Test:
 
     def createreport(self):
         host_info = self.getvalue()
+        date = time.strftime("%Y%m%d", time.localtime())
+        fname = 'Zabbix_Report_%s_%s.xlsx' % (self.groupname,date)
         # 创建一个excel表格
         workbook = xlsxwriter.Workbook(fname)
         # 设置第一行标题格式
@@ -334,7 +337,7 @@ class Test:
                 continue
             j += 1
         ###############制作内存大于90%的服务器表格########################
-        worksheet3 = workbook.add_worksheet("内存大于90%")
+        worksheet3 = workbook.add_worksheet("内存大于50%")
         # 设置列宽
         worksheet3.set_column('A:B', 25)
         # 设置行高
@@ -349,7 +352,7 @@ class Test:
             keys_ip = sorted(host_info[ip])  # 取出每个ip的键值，并把键值进行排序
             host_value = host_info[ip]  # 取出没有排序的键值
             if len(host_value) != 0 and keys_mem in host_value and float(
-                    host_value[keys_mem]) > 90.0:  # 如果出现｛'10.1.12.1':{}｝这种情况的时候，需要跳过，不将其写入表格中
+                    host_value[keys_mem]) > 50.0:  # 如果出现｛'10.1.12.1':{}｝这种情况的时候，需要跳过，不将其写入表格中
                 # print type(float(host_value[keys_mem]))
                 # if float(host_value[keys_mem]) < 20.0:
                 worksheet3.write(j, 0, ip, format_value)
@@ -359,7 +362,7 @@ class Test:
             j += 1
         #######################制作硬盘空间小于20%的服务器表格#########################
         # 制作硬盘空间小于20%的服务器表格
-        worksheet4 = workbook.add_worksheet("磁盘空间低于20%")
+        worksheet4 = workbook.add_worksheet("磁盘使用率高于80%")
         # 设置列宽
         worksheet4.set_column('A:B', 25)
         # 设置行高
@@ -374,7 +377,7 @@ class Test:
             keys_ip = sorted(host_info[ip])  # 取出每个ip的键值，并把键值进行排序
             host_value = host_info[ip]  # 取出没有排序的键值)
             if len(host_value) != 0 and keys_disk in host_value and float(
-                    host_value[keys_disk]) < 20.0:  # 如果出现｛'10.1.12.1':{}｝这种情况的时候，需要跳过，不将其写入表格中
+                    host_value[keys_disk]) > 80.0:  # 如果出现｛'10.1.12.1':{}｝这种情况的时候，需要跳过，不将其写入表格中
                 # print type(float(host_value[keys_disk]))
                 # if float(host_value[keys_disk]) < 20.0:
                 worksheet4.write(j, 0, ip, format_value)
@@ -383,38 +386,38 @@ class Test:
                 continue
             j += 1
 
-            #######################制作CPU负载大于8的服务器表格#########################
-            # 制作CPU负载大于8的服务器表格
-            worksheet5 = workbook.add_worksheet("CPU负载大于8")
-            # 设置列宽
-            worksheet5.set_column('A:B', 25)
-            # 设置行高
-            worksheet5.set_default_row(25)
-            # 冻结首行首列
-            worksheet5.freeze_panes(1, 1)
-            # 写入第一列、第一行
-            worksheet5.write(0, 0, "主机".encode('utf-8').decode('utf-8'), format_title)
-            worksheet5.write(0, 1, keys_cpu, format_title)
-            j = 1
-            for ip in host_info:
-                keys_ip = sorted(host_info[ip])  # 取出每个ip的键值，并把键值进行排序
-                host_value = host_info[ip]  # 取出没有排序的键值
-                if len(host_value) != 0 and keys_cpu in host_value and float(
-                        host_value[keys_cpu]) > 8:  # 如果出现｛'10.1.12.1':{}｝这种情况的时候，需要跳过，不将其写入表格中
-                    # print type(float(host_value[keys_cpu]))
-                    # if float(host_value[keys_cpu]) < 20.0:
-                    worksheet5.write(j, 0, ip, format_value)
-                    worksheet5.write(j, 1, host_value[keys_cpu], format_value)
-                else:
-                    continue
-                j += 1
+        #######################制作CPU负载大于8的服务器表格#########################
+        # 制作CPU负载大于8的服务器表格
+        worksheet5 = workbook.add_worksheet("CPU负载大于0.2")
+        # 设置列宽
+        worksheet5.set_column('A:B', 25)
+        # 设置行高
+        worksheet5.set_default_row(25)
+        # 冻结首行首列
+        worksheet5.freeze_panes(1, 1)
+        # 写入第一列、第一行
+        worksheet5.write(0, 0, "主机".encode('utf-8').decode('utf-8'), format_title)
+        worksheet5.write(0, 1, keys_cpu, format_title)
+        j = 1
+        for ip in host_info:
+            keys_ip = sorted(host_info[ip])  # 取出每个ip的键值，并把键值进行排序
+            host_value = host_info[ip]  # 取出没有排序的键值
+            if len(host_value) != 0 and keys_cpu in host_value and float(
+                    host_value[keys_cpu]) > 0.2:  # 如果出现｛'10.1.12.1':{}｝这种情况的时候，需要跳过，不将其写入表格中
+                # print type(float(host_value[keys_cpu]))
+                # if float(host_value[keys_cpu]) < 20.0:
+                worksheet5.write(j, 0, ip, format_value)
+                worksheet5.write(j, 1, host_value[keys_cpu], format_value)
+            else:
+                continue
+            j += 1
         workbook.close()
 
 
 
 
 if __name__ == '__main__':
-    t=Test()
+    t=Test(groupname)
     a=t.getgroupid()
     b=t.gethostid()
     c=t.gethostlist()

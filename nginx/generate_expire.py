@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 from base64 import b64encode
 import hashlib
 # 设置环境变量
-resource = b'/resources/index.html'
+resource = b'/resources/home.html'
 remote_addr = b'127.0.0.1'
 host = b'www.example.com'
 mysecret = b'mySecret'

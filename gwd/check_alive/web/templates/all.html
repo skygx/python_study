@@ -1,0 +1,192 @@
+{% extends 'base.html' %}
+
+{% block title %}All App Page{% endblock %}
+
+{% block content %}
+{% include 'view_modal.html' %}
+{% include 'edit_modal.html' %}
+
+<table id="table"
+       class="table table-bordered table-hover table-striped table-responsive-md table-condensed"
+       data-checkbox-header="true"
+       >
+
+    <thead class="thead thead-dark">
+        <tr>
+            <th data-field="state" data-checkbox="true" ></th>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>ENV</th>
+            <th>IP</th>
+            <th>PORT</th>
+            <th>URL</th>
+            <th>KEY</th>
+        </tr>
+    </thead>
+
+</table>
+<div id="toolbar" class="container panel panel-default">
+    <div class="panel-body">
+        <div class="list-op" id="list-op">
+            <button type="button" class="btn btn-primary" id="export" onclick="exportData()">导出</button>
+            <button type="button" class="btn btn-danger" id="delete-select" onclick="deleterow()">删除</button>
+        </div>
+    </div>
+</div>
+
+<script >
+    //var serverUrl = 'http://192.168.43.241:5000';
+    var serverUrl = '';
+    var columns =  [
+        {
+        field:'state',
+        title: '',
+        checkbox: true,
+        },
+        {
+            field: 'id',
+            title: 'ID',
+            align: 'center',
+            valign: 'middle',
+            titleTooltip: 'ID',
+            sortable: true,
+            //formatter: function (value, row, index) {
+            //    return index + 1; // 返回行的索引+1，作为序号
+            //}
+        },
+        {
+            field: 'name',
+            title: 'APP',
+            sortable: true
+          }, {
+            field: 'env',
+            title: 'ENV',
+            sortable: true
+          },
+          {
+            field: 'location',
+            title: 'LOCATION',
+            sortable: true
+          },
+       {
+    field: 'ip',
+    title: 'IP',
+    //width: 300,
+    sortable: true
+  },{
+    field: 'port',
+    title: 'PORT',
+    //width: 300,
+    sortable: true
+  }, {
+        field: 'url',
+        title: 'URL'
+      }, {
+            field: 'key',
+            title: 'KEY'
+          },
+           {
+             field:'opertion',
+             title: '操作',
+             width: 300,
+             align: 'center',
+             valign: 'middle',
+             formatter: actionFormatter
+         }
+  ];
+    var $table = $('#table');
+
+   $table.bootstrapTable({
+    url: serverUrl + '/api/all',
+    type: 'GET',
+    dataType: 'json',
+    height:800,
+    undefinedText:"_",           //当数据为 undefined 时显示的字符。
+    sidePagination: 'client',
+    cache: false,
+    showHeader: true,
+    showFooter: false,
+    pagination: true,             //是否显示分页（*）
+    showRefresh: true,          //显示刷新按钮
+    showToggle:false,        //是否显示详细视图和列表视图的切换按钮
+    showColumns: true, //显示下拉框勾选要显示的列
+    pagination: true,   //在表格底部显示分页工具栏
+    striped: true,        //是否显示行间隔色
+    pageNumber:1, //当前第几页
+    pageSize: 10, //每页显示的记录数
+    pageList: [10,20,30,40,50], //记录数可选列表
+    toolbar: "#toolbar",   //设置工具栏的Id或者class
+    paginationPreText:"<<",
+    paginationNextText:">>",
+    clickToSelect: true,    //点击行即可选中单选/复选框
+    uniqueId: "id", // 每行唯一标识
+    //iconSize: "outline",
+    cardView: false,//设置为True时显示名片（card）布局
+    detailView: false, //是否显示父子表的详细视图
+    singleSelect: false,//复选框只能选择一条记录
+    search: true,    //是否显示右上角的搜索框
+    //showSearchButton: true,
+    buttonsPrefix: 'btn btn-primary',		// 修改工具栏按钮样式
+    buttonsPrefix: '#btn-',
+    buttonsAlign: 'right',
+    buttonsClass: 'default',
+
+    onLoadSuccess: function (data) {
+        // 格式化日期
+        for (var i = 0; i < data.length; i++) {
+            data[i].location = data[i].location.replace(/T/g,'').replace(/\..+/, '');
+        }
+    },
+    onRefresh: function (params) {
+        location.reload();
+    },
+    formatLoadingMessage: function () {
+        return 'Loading, please wait...';
+    },
+    formatNoMatches: function () {
+        return 'No matching records found';
+    },
+    onCheckAll: function (rows) {
+        var allTableData = $('#table').bootstrapTable('getData');
+        console.log('onCheckAll');
+        //console.log(allTableData);
+    },
+    onCheck: function (row) {
+        console.log('onCheck');
+        var rowSelected = $('#table').bootstrapTable('getSelections');
+        //console.log(rowSelected);
+    },
+    onUncheck: function (row) {
+        console.log('onUncheck');
+        //console.log(row);
+    },
+    queryParamsType: "undefined",    //设置参数格式
+    queryParams: function queryParams(params) {  //设置查询参数page和rows
+        //这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
+        var param={
+            page:params.pageNumber, //首页页码
+            rows:params.pageSize    //每页的记录行数
+        };
+        return param;
+    },
+    iconsPrefix: 'fa', // fa, glyphicon, octicon, etc
+    icons: {
+        paginationSwitchDown: 'fa-toggle-on',
+        paginationSwitchUp: 'fa-toggle-off',
+        refresh: 'fa-refresh',
+        toggle: 'fa-th-list',
+        columns: 'fa-th',
+        export: 'fa-download',
+        //download: 'fa-cloud-download'
+        // 您可以继续添加更多的图标
+    },
+  rowStyle: function(row, index) {
+        return {css: {'height': '20px', 'font-size': '20px', 'line-height': '20px', 'text-align': 'center',}};
+    },
+
+  columns: columns
+})
+
+</script>
+
+{% endblock %}

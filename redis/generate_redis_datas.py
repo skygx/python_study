@@ -39,10 +39,10 @@ def createDataFile(fileName):
 
     # randomly generate 100 lines of data
 
-    for i in range(100):
+    for i in range(1000):
 
         # new_word = random.choice(data) + str(random.randint(1, 100))
-        new_word = fake.pystr(min_chars=3, max_chars=8) + str(random.randint(1, 100))
+        new_word = fake.pystr(min_chars=3, max_chars=14) + str(random.randint(1, 100))
         f.write(new_word + "\n")
 
     f.close()
