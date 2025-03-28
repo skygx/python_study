@@ -1,0 +1,15 @@
+use db1;
+select * from stma_01;
+select * from stma_02;
+select * from stma_03;
+select * from stma_04;
+use db2;
+select * from stma_05;
+select * from stma_06;
+select * from stma_07;
+select * from stma_08;
+use db3;
+select * from stma_09;
+select * from stma_10;
+select * from stma_11;
+select * from stma_12;

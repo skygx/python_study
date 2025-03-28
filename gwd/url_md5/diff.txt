@@ -1,0 +1,5 @@
+test                 1234                             1234                             equal 
+test2                5678                             56785                            diff  
+test3                9012                             9012                             equal 
+test4                12345                                                             new   
+test5                                                 ajsijie                          del   

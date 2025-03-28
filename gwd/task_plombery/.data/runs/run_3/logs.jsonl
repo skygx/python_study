@@ -1,0 +1,3 @@
+{"level": "INFO", "message": "Executing pipeline `test_pipeline` #3 via trigger `_manual`", "loggerName": "plombery.3", "timestamp": "2025-01-06T06:19:43.752Z", "pipeline": "test_pipeline", "task": null}
+{"level": "INFO", "message": "Executing task say_hello", "loggerName": "plombery.3", "timestamp": "2025-01-06T06:19:43.753Z", "pipeline": "test_pipeline", "task": null}
+{"level": "INFO", "message": "Hello, None!", "loggerName": "plombery.3-say_hello", "timestamp": "2025-01-06T06:19:43.757Z", "pipeline": "test_pipeline", "task": "say_hello"}

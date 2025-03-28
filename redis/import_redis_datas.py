@@ -38,4 +38,5 @@ with open(fileName, "r", encoding="utf-8") as f:
         # print(line.strip(),line)
         res.set(line.strip(), fake.pystr(min_chars=3, max_chars=8))
         i=i+1
+		
 print(i)

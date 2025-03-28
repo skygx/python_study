@@ -15,8 +15,9 @@ from pykafka import KafkaClient
 
 client = KafkaClient(hosts="192.168.226.20:9092")
 
-topic = client.topics['my_topic']
+topic = client.topics['test']
 
 with topic.get_sync_producer() as producer:
-    for i in range(10000):
+    for i in range(100):
+        print(i)
         producer.produce(('test message ' + str(i)).encode())

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易聊天软件</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #chat-box {
+            width: 400px;
+            height: 400px;
+            border: 1px solid #ccc;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        #message-input {
+            width: 300px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        #send-button {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chat-box"></div>
+    <input type="text" id="message-input" placeholder="输入消息">
+    <button id="send-button">发送</button>
+
+    <script>
+        const chatBox = document.getElementById('chat-box');
+        const messageInput = document.getElementById('message-input');
+        const sendButton = document.getElementById('send-button');
+
+        function updateMessages() {
+            fetch('/get_messages')
+              .then(response => response.json())
+              .then(data => {
+                    chatBox.innerHTML = '';
+                    data.messages.forEach(message => {
+                        const messageElement = document.createElement('p');
+                        messageElement.textContent = message;
+                        chatBox.appendChild(messageElement);
+                    });
+                });
+        }
+
+        sendButton.addEventListener('click', function () {
+            const message = messageInput.value;
+            if (message) {
+                fetch('/send_message', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message: message })
+                })
+                  .then(response => response.json())
+                  .then(data => {
+                        if (data.status === 'success') {
+                            messageInput.value = '';
+                            updateMessages();
+                        } else {
+                            alert(data.message);
+                        }
+                    });
+            }
+        });
+
+        // 每隔一段时间更新消息
+        setInterval(updateMessages, 2000);
+    </script>
+</body>
+
+</html>

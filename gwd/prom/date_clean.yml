@@ -1,0 +1,7 @@
+asciiboxes:
+  - title: CST time
+    rate-ms: 500
+    font: 2d
+    border: false   
+    color: 43
+    sample: env TZ=Asia/Shanghai date +%r
